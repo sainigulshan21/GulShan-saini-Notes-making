@@ -6,6 +6,7 @@ addBtn.onclick = function () {
     let notes = localStorage.getItem("notes");
     if (addTxt.textLength == 0) {
         alert("Please write something in text box first!");
+        return;
     }
     else {
         let notes = localStorage.getItem("notes");
